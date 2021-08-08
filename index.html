@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="start">
+            <img class="menu" src="images/menu.png" >
+            <img class="logo" src="images/logo.png">
+        
+        <nav class="navigation">
+          <ul class="nav">
+            <li class="nav-items" >Latest</li>
+            <li class="nav-items">Modern</li>
+            <li class="nav-items">Contemporary</li>
+            <li class="nav-items">Affordable</li>
+          </ul>
+          <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="lamp-container">
+            <img src="images/lamp.png" class="lamp">
+            <img src="images/light.png" class="light" id="light">
+        </div>
+        <div class="text-container">
+            <h1>Latest <br> In Lighting</h1>
+            <p>This is the first lamp from our company. We're making a huge collection of modern lamps in all categories from home to office use</p>
+            <button class="wrapbtn">Check our Collection</button>
+        </div>
+    </div> 
+    
+    <script>
+        var btn = document.getElementById("btn")
+        var light = document.getElementById("light")
+        function toggleBtn(){
+            btn.classList.toggle("active")       
+            light.classList.toggle("on")
+        }
+
+    </script>
+</body>
+</html>

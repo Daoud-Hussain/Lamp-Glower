@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    background: #1d2026;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.start{
+  width: 10px;
+  height: 30px;  
+  display: flex;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.menu{
+    height: 15px;
+    margin-top: 7px;
+}
+.logo{
+    margin-left: 18px;
+    cursor: pointer;
+}
+.navigation {
+    color:white;
+    display: flex;
+    align-items: center;
+    padding-left: 30rem;
+    padding-top: -4rem;
+    cursor: pointer;
+}
+.navigation .nav{
+    display: flex;
+}
+button{
+    background: #efefef;
+    height: 25px;
+    width: 52px;
+    margin-left: 18px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0px;
+    cursor: pointer;
+
+   
+}
+button span{
+    background: black;
+    display: block;
+    margin-left: 2px;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem;
+ 
+}
+.lamp-container{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
+.lamp{
+    height: 270px;
+}
+.light{
+    height: 280px;
+    position: absolute;
+    top: 98%;
+    left: -10.7rem;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.text-container{
+    max-width: 50%;
+    margin-left: 45%;
+    color: blanchedalmond;
+    margin-top: 15%;
+
+}
+.wrapbtn{
+    border-radius: 10px;
+    color: #fff;
+    background: #00986f;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-left: -.2%;
+}
+.active{
+    background-color: #00986f;
+}
+.active span{
+    background-color: white;
+    margin-left: 26px;
+}
+.on{
+    opacity: 1;
+}
